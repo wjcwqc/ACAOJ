@@ -2,9 +2,9 @@
 
 [![Build Status](https://travis-ci.org/wjcwqc/AOJbyJava.svg?branch=master)](https://travis-ci.org/wjcwqc/AOJbyJava)
 
+[README](README.md) | [中文文档](README-zh.md)
+
 "AOJ by"Project series are devoted to [Zhao](https://github.com/webturing)搭建的[OnlineJudge](https://github.com/zhblue/hustoj)答案开放.解决小伙伴们令人头秃的烦恼.
-
-
 
 ## Project series
 
@@ -56,11 +56,11 @@
 
 ### Windows
 
-1.Insure that you have placed [IntelliJ IDEA](https://www.jetbrains.com/idea/) and [git](https://git-scm.com/) already.Then open IDEA
+1. Insure that you have placed [IntelliJ IDEA](https://www.jetbrains.com/idea/) and [git](https://git-scm.com/) already.Then open IDEA
 
-2.`File->New->Project from Version Control->Git`
+2. `File->New->Project from Version Control->Git`
 
-3.URL=https://github.com/wjcwqc/AOJbyJava.git Then just click ````Clone````
+3. URL=https://github.com/wjcwqc/AOJbyJava.git Then just click ````Clone````
 
 ### Linux
 
@@ -74,13 +74,13 @@ or
 
 ## Release
 
-1.Click[releases](https://github.com/wjcwqc/AOJbyJava/releases)
+1. Click [releases](https://github.com/wjcwqc/AOJbyJava/releases)
 
-2.Click or use wget or curl [package.zip](https://github.com/wjcwqc/AOJbyJava/releases/package.zip)下载代码包
+2. Click or use wget or curl [package.zip](https://github.com/wjcwqc/AOJbyJava/releases/package.zip)下载代码包
 
 ## Easiest way
 
-Click[ReferenceSrc](https://github.com/wjcwqc/AOJbyJava/ReferenceSrc)then Click````Download->Download ZIP````
+Click [ReferenceSrc](https://github.com/wjcwqc/AOJbyJava/ReferenceSrc) then Click````Download->Download ZIP````
 
 ## Bug report
 

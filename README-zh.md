@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/wjcwqc/AOJbyJava.svg?branch=master)](https://travis-ci.org/wjcwqc/AOJbyJava)
 
+[README](README.md) | [中文文档](README-zh.md)
+
 "AOJ by"系列项目致力于将[赵靖](https://github.com/webturing)老师搭建的[OnlineJudge](https://github.com/zhblue/hustoj)答案开放。解决小伙伴们令人头秃的烦恼。
 
 ## 全家桶
@@ -72,9 +74,9 @@ or
 
 ## 稳定方法
 
-1.点击[releases](https://github.com/wjcwqc/AOJbyJava/releases)
+1. 点击[releases](https://github.com/wjcwqc/AOJbyJava/releases)
 
-2.点击（或右键“连接另存为”）[package.zip](https://github.com/wjcwqc/AOJbyJava/releases/package.zip)下载代码包
+2. 点击（或右键“连接另存为”）[package.zip](https://github.com/wjcwqc/AOJbyJava/releases/package.zip)下载代码包
 
 ## 小白方法
 
@@ -117,8 +119,8 @@ or
 
 ## 捐助
 
-![alt zfb](Introduction/alipay.jpg "支付宝")
-![alt wx](Introduction/wx.png "微信")
+![alt zfb](https://github.com/wjcwqc/AOJbyJava/Introduction/alipay.jpg "支付宝")
+![alt wx](https://github.com/wjcwqc/AOJbyJava/Introduction/wx.png "微信")
 
 不捐助点个star也是极好的
 
@@ -148,7 +150,7 @@ Fork项目超越我们。相信你是最棒（pang）的！！
 
 ### 贡献代码
 
-[联系我们](##其他)
+[联系我们](##联系我们)
 通过测试后安排成为contributor。免费为“AOJ by”系列项目提供持续动力。
 
 如果你也是热爱做题的小伙伴也不妨加入到我们的行列中来。
@@ -165,7 +167,7 @@ Fork项目超越我们。相信你是最棒（pang）的！！
 [wjcwqc](https://www.webturing.com/userinfo.php?user=2703170216)
 [Myth](https://www.webturing.com/userinfo.php?user=2703170112)
 
-## 其他
+## 联系我们
 
 [联系邮箱](mailto:admin@wjcwqc.com)（正在筹划，请先使用备用邮箱进行联系）
 
