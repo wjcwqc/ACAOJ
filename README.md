@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/wjcwqc/AOJbyJava.svg?branch=master)](https://travis-ci.org/wjcwqc/AOJbyJava)
 
-[README](README.md) | [中文文档](README-zh.md)
+[README](README.md) | [中文文档](README_zh.md)
 
 "AOJ by"Project series are devoted to [Zhao](https://github.com/webturing)搭建的[OnlineJudge](https://github.com/zhblue/hustoj)答案开放.解决小伙伴们令人头秃的烦恼.
 
@@ -21,34 +21,9 @@
 
 -->
 
-# Context
+# *This .md file is translated from README_zh.md*
 
-* [使用](#%E4%BD%BF%E7%94%A8)
-  * [git方法](#git%E6%96%B9%E6%B3%95)
-    * [蓝（dao）版系统](#%E8%93%9Ddao%E7%89%88%E7%B3%BB%E7%BB%9F)
-    * [企鹅系统](#%E4%BC%81%E9%B9%85%E7%B3%BB%E7%BB%9F)
-  * [稳定方法](#%E7%A8%B3%E5%AE%9A%E6%96%B9%E6%B3%95)
-  * [小白方法](#%E5%B0%8F%E7%99%BD%E6%96%B9%E6%B3%95)
-  * [Bug反馈](#bug%E5%8F%8D%E9%A6%88)
-    * [AOJbug反馈](#aojbug%E5%8F%8D%E9%A6%88)
-    * ["AOJ by"系列项目反馈](#aoj-by%E7%B3%BB%E5%88%97%E9%A1%B9%E7%9B%AE%E5%8F%8D%E9%A6%88)
-* [目录结构](#%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84)
-    * [<a href="https://github\.com/wjcwqc/AOJbyJava/FastTable">FastTable</a>](#fasttable)
-    * [<a href="https://github\.com/wjcwqc/AOJbyJava/FastMod">FastMod</a>](#fastmod)
-    * [<a href="https://github\.com/wjcwqc/AOJbyJava/Introduction">Introduction</a>](#introduction)
-    * [<a href="https://github\.com/wjcwqc/AOJbyJava/ReferenceSrc">ReferenceSrc</a>](#referencesrc)
-    * [<a href="https://github\.com/wjcwqc/AOJbyJava/Problems">Problems</a>](#problems)
-* [重在参与](#%E9%87%8D%E5%9C%A8%E5%8F%82%E4%B8%8E)
-  * [捐助](#%E6%8D%90%E5%8A%A9)
-  * [购买题解](#%E8%B4%AD%E4%B9%B0%E9%A2%98%E8%A7%A3)
-  * [我要提交](#%E6%88%91%E8%A6%81%E6%8F%90%E4%BA%A4)
-    * [分支方法](#%E5%88%86%E6%94%AF%E6%96%B9%E6%B3%95)
-    * [贡献代码](#%E8%B4%A1%E7%8C%AE%E4%BB%A3%E7%A0%81)
-* [人员&amp;联系方式](#%E4%BA%BA%E5%91%98%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F)
-  * [<a href="https://github\.com">github</a>](#github)
-  * [<a href="https://www\.webturing\.com" rel="nofollow">AOJ</a>](#aoj)
-  * [其他](#%E5%85%B6%E4%BB%96)
-  * [特别鸣谢](#%E7%89%B9%E5%88%AB%E9%B8%A3%E8%B0%A2)
+## Because incompleted translation,this file may be chaos and wrong.Please read '[中文文档](README_zh.md)' preferentially
 
 # Ways to use
 

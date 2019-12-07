@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/wjcwqc/AOJbyJava.svg?branch=master)](https://travis-ci.org/wjcwqc/AOJbyJava)
 
-[README](README.md) | [中文文档](README-zh.md)
+[README](README.md) | [中文文档](README_zh.md)
 
 "AOJ by"系列项目致力于将[赵靖](https://github.com/webturing)老师搭建的[OnlineJudge](https://github.com/zhblue/hustoj)答案开放。解决小伙伴们令人头秃的烦恼。
 
@@ -119,7 +119,7 @@ or
 
 ## 捐助
 
-![alt zfb](https://github.com/wjcwqc/AOJbyJava/Introduction/alipay.jpg "支付宝")
+![alt zfb](https://github.com/wjcwqc/AOJbyJava/Introduction/alipay.png "支付宝")
 ![alt wx](https://github.com/wjcwqc/AOJbyJava/Introduction/wx.png "微信")
 
 不捐助点个star也是极好的
