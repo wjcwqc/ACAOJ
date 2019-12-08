@@ -1,5 +1,3 @@
-package CommonMod;
-
 public class Isprime_a {
     static final int max = 100000;
     static int[] p = new int[max];
