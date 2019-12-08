@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/FastMod" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FastTable" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ReferenceSrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Introduction" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

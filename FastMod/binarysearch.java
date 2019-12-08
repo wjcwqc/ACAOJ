@@ -1,4 +1,3 @@
-
 public class binarysearch {
     static final int max = 9998;
     static int[] m = new int[max];
