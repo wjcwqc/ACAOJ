@@ -104,7 +104,7 @@ or
 
 ## 捐助
 
-![alt zfb](https://github.com/wjcwqc/ACAOJ/blob/master/Introduction/alipay.png "支付宝")
+![alt zfb](https://github.com/wjcwqc/ACAOJ/blob/master/Introduction/zfb.png "支付宝")
 ![alt wx](https://github.com/wjcwqc/ACAOJ/blob/master/Introduction/wx.png "微信")
 
 不捐助点个star也是极好的
