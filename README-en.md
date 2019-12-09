@@ -1,4 +1,4 @@
-# AOJ by Java
+# ACAOJ
 
 [![Build Status](https://travis-ci.org/wjcwqc/ACAOJ.svg?branch=master)](https://travis-ci.org/wjcwqc/ACAOJ)
 
@@ -80,7 +80,7 @@ Put Issue or contact us by mail below.
 
 ## 捐助
 
-![alt alipay](Introduction/alipay.jpg "Alipay")
+![alt alipay](Introduction/zfb.png "Alipay")
 ![alt wechat](Introduction/wx.png "Wechat")
 
 
