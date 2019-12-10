@@ -79,7 +79,7 @@ or
 
 # 目录结构
 
-### [FastTable](https://github.com/wjcwqc/ACAOJ/FastTable)
+### [FastTable](https://github.com/wjcwqc/ACAOJ/tree/master/FastTable)
 
 速查表。包括但不限于：水仙花数、素数、3n+1猜想数、因数个数。
 
@@ -87,15 +87,15 @@ or
 
 速用模块。包括但不限于：二分查找、约数个数、素数判断。
 
-### [Introduction](https://github.com/wjcwqc/ACAOJ/Introduction)
+### [Introduction](https://github.com/wjcwqc/ACAOJ/tree/master/Introduction)
 
 项目相关资料存放。
 
-### [ReferenceSrc](https://github.com/wjcwqc/ACAOJ/ReferenceSrc)
+### [ReferenceSrc](https://github.com/wjcwqc/ACAOJ/tree/master/ReferenceSrc)
 
 你们最想要的源码。
 
-### [Problems](https://github.com/wjcwqc/ACAOJ/Problems)
+### [Problems](https://github.com/wjcwqc/ACAOJ/tree/master/Problems)
 
 部分试题内容。主要存放不公开的竞赛试题。并不保证有确定题解。
 
