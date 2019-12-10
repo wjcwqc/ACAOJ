@@ -83,7 +83,7 @@ or
 
 速查表。包括但不限于：水仙花数、素数、3n+1猜想数、因数个数。
 
-### [FastMod](https://github.com/wjcwqc/ACAOJ/FastMod)
+### [FastMod](https://github.com/wjcwqc/ACAOJ/tree/master/FastMod)
 
 速用模块。包括但不限于：二分查找、约数个数、素数判断。
 
