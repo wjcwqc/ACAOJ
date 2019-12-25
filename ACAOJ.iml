@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/FastTable" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/Introduction" type="java-resource" />
     </content>
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

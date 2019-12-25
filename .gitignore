@@ -1,9 +1,10 @@
 /ReferenceSrc/test.*
 /ReferenceSrc/ZIP.py
-/.idea
+
 /cmake-build-debug
 /Introduction/zfb.png
 /Introduction/wx.png
 /out
 /CMakeLists.txt
 /bin
+/.idea/

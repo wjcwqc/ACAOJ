@@ -38,15 +38,15 @@ import java.util.Scanner;
  */
 public class J1137 {
 
-    static Scanner cin=new Scanner(System.in);
-    static int[] t={2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53};
+    static Scanner cin = new Scanner(System.in);
+    static int[] t = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53};
 
     public static void main(String[] args) {
-        int t=cin.nextInt();
-        int m=cin.nextInt();
-        int[] b=new int[m];
-        int[][] list=new int[m][16];
-        for(int i=0;i<m;i++){
+        int t = cin.nextInt();
+        int m = cin.nextInt();
+        int[] b = new int[m];
+        int[][] list = new int[m][16];
+        for (int i = 0; i < m; i++) {
             b[i]=cin.nextInt();
         }
         for(int i=0;i<m;i++){
