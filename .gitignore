@@ -1,6 +1,6 @@
 /ReferenceSrc/test.*
 /ReferenceSrc/ZIP.py
-/.idea/uiDesigner.xml
+/.idea
 /cmake-build-debug
 /Introduction/zfb.png
 /Introduction/wx.png
