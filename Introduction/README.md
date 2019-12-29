@@ -2,7 +2,7 @@
 
 ## 当前目录使用说明
 
-*[BugReport](BugReport.md) *
+*[BugReport](BugReport.md)*
 
 漏洞反馈报告。请在发现、收到、完成修复 漏洞后及时更新，可以增加你作为giter的代码行数和维护记录。
 
