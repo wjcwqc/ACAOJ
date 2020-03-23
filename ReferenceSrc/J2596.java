@@ -6,7 +6,7 @@
  * Date:2020/3/16 下午5:28
  */
 
-import java.util.*;
+import java.util.Scanner;
 
 public class J2596 {
     public static void main(String[] args) {
