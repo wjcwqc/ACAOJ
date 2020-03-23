@@ -5,7 +5,7 @@ public class J2278 {
     public static void main(String[] args) {
         Scanner cin = new Scanner(System.in);
         int n = cin.nextInt();
-        System.out.println(Fibonacci(n));
+        System.out.println(Fibonacci(n-1));
         cin.close();
     }
 
