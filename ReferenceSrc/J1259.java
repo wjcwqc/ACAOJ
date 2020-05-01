@@ -24,8 +24,11 @@ public class J1259 {
             double s1 = x * 0.6 + o1.scores * 0.4;
             double s2 = y * 0.6 + o2.scores * 0.4;
             double s = Double.compare(s1, s2);
-            if ((int) s != 0) return (int) -s;
-            else return -o1.name.compareTo(o2.name);
+            if ((int) s != 0) {
+                return (int) -s;
+            } else {
+                return -o1.name.compareTo(o2.name);
+            }
         });
         int i = 0;
         for (Student s1 : list) {
