@@ -1,176 +1,61 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class J1259 {
     public static void main(String[] args) {
-        Scanner cn = new Scanner(System.in);
-        Score[] score = new Score[200];
-        double english = cn.nextDouble();
-        double politices = cn.nextDouble();
-        double math = cn.nextDouble();
-        double domain = cn.nextDouble();
-        double total = cn.nextDouble();
+        Scanner cin = new Scanner(System.in);
+        List<Student> list = new ArrayList<>();
+        double[] score = new double[5];
+        for (int i = 0; i < score.length; i++) {
+            score[i] = cin.nextDouble();
+        }
+        while (cin.hasNext()) {
+            String name = cin.next();
+            double english = cin.nextDouble();
+            double politics = cin.nextDouble();
+            double math = cin.nextDouble();
+            double major = cin.nextDouble();
+            double scores = cin.nextDouble();
+            Student stu = new Student(name, english, politics, math, major, scores);
+            list.add(stu);
+        }
+        list.sort((o1, o2) -> {
+            double x = o1.english + o1.politics + o1.math + o1.major;
+            double y = o2.english + o2.politics + o2.math + o2.major;
+            double s1 = x * 0.6 + o1.scores * 0.4;
+            double s2 = y * 0.6 + o2.scores * 0.4;
+            double s = Double.compare(s1, s2);
+            if ((int) s != 0) return (int) -s;
+            else return -o1.name.compareTo(o2.name);
+        });
         int i = 0;
-        while (cn.hasNext()) {
-            String name = cn.next();
-            double eng = cn.nextDouble();
-            double po = cn.nextDouble();
-            double ma = cn.nextDouble();
-            double dm = cn.nextDouble();
-            double second = cn.nextDouble();
-            score[i] = new Score(name, eng, po, ma, dm, second);
-            i++;
-        }
-        Score1[] score1 = new Score1[100];
-        int z = 0;
-        for (int j = 0; j < i; j++) {
-            if (score[j].getEnglish() >= english && score[j].getPolitices() > politices && score[j].getMath()
-                    >= math && score[j].getDomain() >= domain) {
-                double sum = score[j].getEnglish() + score[j].getPolitices() + score[j].getMath() + score[j].getDomain();
-                if (sum >= total) {
-                    double summ = sum * 0.6 + score[j].getSecondScore() * 0.4;
-                    score1[z] = new Score1(score[j].getName(), sum, score[j].getSecondScore(), summ);
-                    z++;
-                }
-            }
-        }
-        for (int k = 0; k < z; k++) {
-            for (int l = k + 1; l < z; l++) {
-                if (score1[k].getTotalScore() < score1[l].getTotalScore()) {
-                    Score1 tt = score1[k];
-                    score1[k] = score1[l];
-                    score1[l] = tt;
-                } else if (score1[k].getTotalScore() == score1[l].getTotalScore()) {
-                    if (score1[k].getName().compareTo(score1[l].getName()) > 0) {
-                        Score1 tt = score1[k];
-                        score1[k] = score1[l];
-                        score1[l] = tt;
-                    }
-                }
-            }
-        }
-        for (int m = 0; m < z; m++) {
-            System.out.print(score1[m].getName() + " " + (int) score1[m].getTotal() + " " +
-                    (int) score1[m].getSecondScore() + " ");
-            System.out.printf("%.1f %d\n", score1[m].getTotalScore(), m + 1);
+        for (Student s1 : list) {
+            int sum = (int) (s1.english + s1.politics + s1.major + s1.math);
+            if (s1.english < score[0] || s1.politics < score[1] || s1.math < score[2]
+                    || s1.major < score[3] || s1.scores < 60 || sum < score[4]) break;
+            double s = sum * 0.6 + s1.scores * 0.4;
+            String bd = String.format("%.1f", s);
+            s = Double.parseDouble(bd);
+            System.out.println(s1.name + " " + sum + " "
+                    + (int) s1.scores + " " + s + " " + (++i));
         }
     }
-}
 
-class Score1 {
-    private String name;
-    private double total;
-    private double secondScore;
-    private double totalScore;
+    private static class Student {
+        String name;
+        double english;
+        double politics;
+        double math;
+        double major;
+        double scores;
 
-    public Score1(String name, double total, double secondScore,
-                  double totalScore) {
-        super();
-        this.name = name;
-        this.total = total;
-        this.secondScore = secondScore;
-        this.totalScore = totalScore;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public double getTotal() {
-        return total;
-    }
-
-    public void setTotal(double total) {
-        this.total = total;
-    }
-
-    public double getSecondScore() {
-        return secondScore;
-    }
-
-    public void setSecondScore(double secondScore) {
-        this.secondScore = secondScore;
-    }
-
-    public double getTotalScore() {
-        return totalScore;
-    }
-
-    public void setTotalScore(double totalScore) {
-        this.totalScore = totalScore;
-    }
-
-
-}
-
-class Score {
-    private String name;
-    private double english;
-    private double politices;
-    private double math;
-    private double domain;
-    private double secondScore;
-
-    public Score(String name, double english, double politices, double math,
-                 double domain, double secondScore) {
-        super();
-        this.name = name;
-        this.english = english;
-        this.politices = politices;
-        this.math = math;
-        this.domain = domain;
-        this.secondScore = secondScore;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public double getEnglish() {
-        return english;
-    }
-
-    public void setEnglish(double english) {
-        this.english = english;
-    }
-
-    public double getPolitices() {
-        return politices;
-    }
-
-    public void setPolitices(double politices) {
-        this.politices = politices;
-    }
-
-    public double getMath() {
-        return math;
-    }
-
-    public void setMath(double math) {
-        this.math = math;
-    }
-
-    public double getDomain() {
-        return domain;
-    }
-
-    public void setDomain(double domain) {
-        this.domain = domain;
-    }
-
-    public double getSecondScore() {
-        return secondScore;
-    }
-
-    public void setSecondScore(double secondScore) {
-        this.secondScore = secondScore;
+        Student(String name, double english, double politics, double math, double major, double scores) {
+            this.name = name;
+            this.english = english;
+            this.politics = politics;
+            this.math = math;
+            this.major = major;
+            this.scores = scores;
+        }
     }
 
 }
