@@ -1,10 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-/**
- * @author MWD
- * @date 2020年5月11日 0011 18:03
- */
 public class J1264 {
     static Scanner cin = new Scanner(System.in);
 
