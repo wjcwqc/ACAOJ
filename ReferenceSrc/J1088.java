@@ -14,6 +14,7 @@ public class J1088 {
             }
             System.out.println(tot);
         }
+        cin.close();
     }
 
     private static int money(int N) {

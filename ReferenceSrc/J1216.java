@@ -5,6 +5,7 @@ public class J1216 {
         Scanner cin = new Scanner(System.in);
         int a = cin.nextInt();
         Changemoney(a);
+        cin.close();
     }
 
     public static void Changemoney(int money) {

@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Java1574 {
+class J1574 {
 
     static class Block {
         int weight;
