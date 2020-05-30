@@ -2,87 +2,68 @@
  * @author MWD
  * @date 2020年5月29日 0029 15:49
  */
+
 import java.util.Scanner;
 
 public class J2824 {
+    public static void main(String[] args) {
+        Scanner cin = new Scanner(System.in);
+        n = cin.nextInt();
+        a = new int[n];
+        v = new boolean[n];
+        if (n % 2 == 0) {
+            dfs(0);
+        }
+        if (!flag) {
+            System.out.println("no solution");
+        }
+    }
 
     static int n;
-    static int a[];
-    static int count;
-    static boolean flag = false;
-    public static void main(String[] args) {
+    static int[] a;
+    static boolean[] v;
+    static boolean flag;
 
-        Scanner in = new Scanner(System.in);
-        n = in.nextInt();
-        count = 0;
-        a = new int[n+1];
-        init();
-        if((n&1)!= 0){
-            System.out.println("no solution");
-        }else{
-            search(1);
-            if(count == 0) {
-                System.out.println("no solution");
-            }
-        }
-
-    }
-
-    public static void init(){
-        for(int i=0; i<n+1; ++i){
-            a[i] = i;
-        }
-    }
-
-    public static void search(int m){
+    private static void dfs(int k) {
         if (flag) {
             return;
         }
-        int i;
-        if(m > n)
-        {
-            if(isPrime(a[1]+a[n])){
-                count++;
-                printResult();
+        if (k >= n) {
+            if (primer(a[n - 1] + a[0])) {
                 flag = true;
-            }
-
-        }
-        else
-        {
-            for(i=m;i<=n;i++)
-            {
-                swap(m,i);
-                if((m-1) == 0 || isPrime(a[m]+a[m-1])) {
-                    search(m+1);
+                for (int i = 0; i < n; i++) {
+                    System.out.print(a[i] + " ");
                 }
-                swap(m,i);
+                System.out.println();
             }
+            return;
+        }
+        for (int i = 0; i < n; i++) {
+            if (v[i]) {
+                continue;
+            }
+            if (k > 0 && !primer(a[k - 1] + i + 1)) {
+                continue;
+            }
+            v[i] = true;
+            a[k] = i + 1;
+            dfs(k + 1);
+            v[i] = false;
         }
     }
 
-    public static void swap(int m, int i){
-        int tmp = a[m];
-        a[m] = a[i];
-        a[i] = tmp;
-    }
-
-    public static boolean isPrime(int num){
-        int i;
-        for(i=2; i*i<=num; ++i){
-            if(num%i == 0) {
+    private static boolean primer(int n) {
+        if (n == 2) {
+            return true;
+        }
+        if (n < 2 || n % 2 == 0) {
+            return false;
+        }
+        for (int i = 3; i * i <= n; i += 2) {
+            if (n % i == 0) {
                 return false;
             }
         }
         return true;
-
     }
-
-    public static void printResult(){
-        for(int i=1; i<=n; i++){
-            System.out.print(a[i]+" ");
-        }
-        System.out.println();
-    }
-
 }
