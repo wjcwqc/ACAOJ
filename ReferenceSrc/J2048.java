@@ -39,7 +39,7 @@ public class J2048 {
                     S.push(Integer.parseInt(s));
                 }
             }
-            System.out.println("%d", S.peek());
+            System.out.println(S.peek());
         }
     }
 }
