@@ -19,12 +19,15 @@ public class J2828 {
         for (int i=0;i<num;i++) {
             String na = cin.next();
             int sc = cin.nextInt();
-            int sava=find(name,na);
-            score[sava]+=sc;
-            if(score[sava]>max){
-                result=sava;
-                max=score[sava];
-            }else if(sava==result&&sc<0)
+            int sava = find(name, na);
+            score[sava] += sc;
+            if (score[sava] > max) {
+                result = sava;
+                max = score[sava];
+            }
+//            else if(sava==result&&sc<0)
+            //TODO
+
         }
         System.out.println(name[result]);
 
