@@ -13,13 +13,13 @@ public class J2810 {
         Scanner cin = new Scanner(System.in);
         int n = cin.nextInt();
         while (n-- > 0) {
-            int a = cin.nextInt();
-            int b = cin.nextInt();
+            Long a = cin.nextLong();
+            Long b = cin.nextLong();
             if (b % a != 0) {
                 System.out.println("-1");
             } else {
                 b /= a;
-                int cnt = 0;
+                long cnt = 0;
                 while (b % 2 == 0) {
                     b /= 2;
                     cnt++;
