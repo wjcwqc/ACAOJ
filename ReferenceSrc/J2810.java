@@ -13,8 +13,8 @@ public class J2810 {
         Scanner cin = new Scanner(System.in);
         int n = cin.nextInt();
         while (n-- > 0) {
-            Long a = cin.nextLong();
-            Long b = cin.nextLong();
+            long a = cin.nextLong();
+            long b = cin.nextLong();
             if (b % a != 0) {
                 System.out.println("-1");
             } else {
